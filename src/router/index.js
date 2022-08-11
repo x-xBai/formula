@@ -16,9 +16,9 @@ const routes = [
     component: () => import("./../views/about.vue"),
   },
   {
-    path: "/home",
-    name: "home",
-    component: () => import("./../views/Home.vue"),
+    path: "/CalculationEngine",
+    name: "CalculationEngine",
+    component: () => import("./../views/CalculationEngine.vue"),
   },
   {
     path: "/example",
